@@ -1,0 +1,4 @@
+"id";"usuario";"senha";"nome";"genero";"data_nascimento";"cpf";"nivel_acesso";"data_criacao"
+1;"jrvitor";"$2y$10$4.gTHB.Qb6y5Y0lALDPwxejo5pDHgFqjstletOkt7uMIUAL.1PXVS";"Joao Vitor";"M";"2004-04-17";"15394544603";"admin";"2024-11-04 19:26:46"
+2;"ryrdri";"$2y$10$ouRs/JZn5ZEzglGa8YD85.FLpfVFt3iwp2rJmOarcnmUcW5GJZzZq";"Ryan Rodrigues";"M";"2004-02-26";"15355601693";"usuario";"2024-11-04 20:25:55"
+8;"andlu";"$2y$10$OGrEJNXtvQqcEw7Vor9pJutJnz3YLV5HfhniNfnM5nVc8rW9jXnhK";"André Luis";"M";"2000-12-24";"12981875671";"admin";"2024-11-10 20:45:43"

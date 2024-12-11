@@ -1,0 +1,145 @@
+@font-face {
+  /* Define uma nova fonte chamada 'Steam' */
+  font-family: "Steam";
+  src: url("fonts/MotivaSansBold.ttf") format("truetype"); /* Localização e formato da fonte */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Estilo padrão para todo o corpo do documento */
+body {
+  background-color: #1b2838; /* Cor de fundo escura */
+  color: #d9dce0; /* Cor do texto em tons claros */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Fonte padrão */
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #1b2838; /* Mesma cor de fundo que o corpo */
+  display: flex; /* Define um layout flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 90vh; /* Altura do main */
+  margin: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #0d1b24; /* Cor de fundo do cabeçalho */
+  border-bottom: 1px solid #3b4d5a; /* Borda inferior para divisão */
+  padding: 10px 20px; /* Espaçamento interno */
+  display: flex; /* Alinha itens de forma flexível */
+  align-items: center; /* Alinha verticalmente os itens do centro */
+  justify-content: space-between; /* Espaça igualmente os itens */
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  justify-content: space-between; /* Espaça os itens do header */
+}
+
+.logo img {
+  max-height: 50px; /* Define a altura máxima da imagem do logo */
+}
+
+h2 {
+  margin: 0 10px; /* Espaço entre a logo e o h2 */
+}
+
+header h1 {
+  color: white;
+  font-size: 24px; /* Define o tamanho do texto */
+  margin: 0;
+}
+
+header nav {
+  display: flex; /* Layout flexível para os links */
+  gap: 20px; /* Espaço entre os links */
+}
+
+header a {
+  color: #d9dce0; /* Cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-size: 20px; /* Tamanho do texto dos links */
+  transition: color 0.3s; /* Transição suave para mudança de cor */
+}
+
+header a:hover {
+  color: #ff4d4d; /* Cor do texto ao passar o mouse */
+}
+
+header img {
+  width: 60px; /* Largura fixa do logo */
+  height: 60px; /* Altura fixa do logo */
+  justify-content: center;
+}
+
+header h2 {
+  font-family: "Steam"; /* Fonte específica para o h2 */
+}
+
+.login-container {
+  background-color: #0d1b24; /* Cor de fundo do container de login */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 20px; /* Espaçamento interno */
+  width: 320px; /* Largura do container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para efeito de profundidade */
+}
+
+h1 {
+  color: white; /* Cor do texto */
+  border: 3px solid beige; /* Borda personalizadas */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+label {
+  color: white; /* Cor do texto dos rótulos */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Fonte dos rótulos */
+  text-align: left; /* Alinhamento à esquerda */
+}
+
+button {
+  border: 2px solid #000000; /* Borda do botão */
+  border-radius: 15px; /* Bordas arredondadas */
+  background-color: #1b2838; /* Cor de fundo do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  color: #d9dce0; /* Cor do texto do botão */
+  font-size: 16px; /* Tamanho do texto do botão */
+  cursor: pointer; /* Apresenta o cursor de clique */
+  transition: background-color 0.3s; /* Transição suave para mudança de cor de fundo */
+  width: 100%; /* Faz o botão ocupar a largura total */
+  margin-top: 10px; /* Espaço acima do botão */
+}
+
+h3 {
+  color: white; /* Cor do texto */
+  text-align: center; /* Texto centralizado */
+}
+
+input {
+  border: 2px solid #ccc; /* Borda dos campos de entrada */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno para estética */
+  font-size: 16px; /* Tamanho do texto dos campos */
+  width: calc(100%); /* Largura total do input */
+}
+
+.input-group {
+  display: flex; /* Layout para alinhar items lado a lado */
+  justify-content: space-between; /* Espaço entre o label e o input */
+  margin-bottom: 15px; /* Espaço abaixo do grupo */
+}
+
+.input-group label {
+  flex: 1; /* Faz o label ocupar uma parte do espaço flexível */
+  margin-right: 10px; /* Espaço entre o label e o input */
+  text-align: left; /* Alinhamento à esquerda */
+}
+
+.input-group input {
+  flex: 2; /* Faz o input ocupar duas partes do espaço flexível */
+  min-width: 120px; /* Define uma largura mínima */
+}

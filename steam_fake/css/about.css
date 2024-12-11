@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Steam";
+  src: url("fonts/MotivaSansBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #d9dce0;
+  background-color: #1b2838;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+  width: 100%;
+  background-color: #0d1b24;
+  border-bottom: 1px solid #3b4d5a;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo{
+  display: flex;
+align-items: center; /* Alinha verticalmente */
+justify-content: space-between; /* Espaça os itens do header */
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header-title {
+  color: #d9dce0;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #d9dce0;
+text-decoration: none;
+font-size: 20px;
+transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff4d4d; /* Efeito de hover */
+}
+
+h2 {
+  margin: 0 10px; /* Espaço entre a logo e o h2 */
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto 20px; /* Espaço ajustado para compensar o header fixo */
+    padding: 20px;
+    background-color: #0d1b24;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 45, 0.2);
+    color: #d9dce0;
+    text-align: left;
+    line-height: 1.6;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.img_redes, .img_redes2 {
+    width: 50px;
+    height: 50px;
+}

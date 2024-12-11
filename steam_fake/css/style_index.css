@@ -1,0 +1,236 @@
+/* Estilos principais */
+
+@font-face {
+  /* Define uma nova fonte chamada 'Steam' */
+  font-family: "Steam";
+  src: url("fonts/MotivaSansBold.ttf") format("truetype"); /* Localização e formato da fonte */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #1b2838;
+  color: #d9dce0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #0d1b24;
+  border-bottom: 1px solid #3b4d5a;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container {
+  color: #d9dce0;
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  justify-content: space-between; /* Espaça os itens do header */
+}
+
+.logo img {
+  max-height: 50px; /* Ajuste conforme necessário */
+}
+
+h2 {
+  margin: 0 10px; /* Espaço entre a logo e o h2 */
+  font-family: 'Steam';
+  color: #d9dce0;
+}
+
+h3 {
+  margin: 10px 50%; /* Espaço entre a logo e o h2 */
+  align-items: center;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header a {
+  color: #d9dce0;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+header a:hover {
+  color: #ff4d4d; /* Efeito de hover */
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  border-bottom: 3px solid beige;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+
+.categoria {
+  width: 100%;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+
+.name-categoria{
+  align-items: center;
+}
+
+.carrossel-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carrossel {
+  display: flex;
+  overflow: hidden;
+  width: 1000px; /* Altere o valor se precisar ajustar */
+}
+
+.jogo {
+  background-color: #0d1b24;
+  border: 2px solid #3b4d5a;
+  border-radius: 10px;
+  width: 200px; /* Defina uma largura fixa */
+  flex-shrink: 0;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.jogo:hover {
+  transform: scale(1.05);
+}
+
+.jogo img {
+  max-width: 100%;
+  height: 150px; /* Defina uma altura fixa para imagens consistentes */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.jogo h2 {
+  color: beige;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.jogo p {
+  color: #d9dce0;
+  font-size: 14px;
+}
+
+button {
+  background-color: #1b2838;
+  color: #d9dce0;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3b4d5a;
+}
+
+.nav-content{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.nav-user-categoria {
+  display: block;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+}
+
+dt{
+  color: #536f86;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+dd{
+  align-items: center;
+  display: flex;
+    width: fit-content;
+    color: #7A8B9D;
+    font-size: 14px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-weight: 550;
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+
+.img-dd{
+  width: 32px;
+    height: 32px;
+    padding: 1px;
+    border-radius: 0;
+    border: 1px solid #66c0f4;
+    margin-right: 10px;
+}
+
+dd:hover{
+  color: #66c0f4;
+}
+
+.nav-friends{
+  width: 30%
+}
+
+.principal {
+  width: 1000px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #d9dce0;
+    background-color: #1b2838;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main-page{
+  margin: 0;
+    font-family: Arial, sans-serif;
+    color: #d9dce0;
+    background-color: #1b2838;
+    display: flex;
+    align-items: space-between;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-content-1{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  margin-right: -20px;
+}
